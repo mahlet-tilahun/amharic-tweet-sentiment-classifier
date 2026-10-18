@@ -8,7 +8,7 @@ scratch, and fine-tuned pretrained Transformer models.
 
 | Resource      | Link                                                                                                     |
 | ------------- | -------------------------------------------------------------------------------------------------------- |
-| Local web app | Run `streamlit run streamlit_app.py`                                                                     |
+| Web deployment| https://amharic-tweet-sentiment-classifier.streamlit.app/                                                |
 | Hosted model  | [Amharic sentiment model on Hugging Face](https://huggingface.co/mahlet-tilahun/amharic-sentiment-model) |
 | Demo video    | Add after publishing the video                                                                           |
 | Report (PDF)  | [report/report.pdf](report/report.pdf)                                                                   |
