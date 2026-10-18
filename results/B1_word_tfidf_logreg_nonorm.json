@@ -1,0 +1,16 @@
+{
+  "experiment": "B1_word_tfidf_logreg_nonorm",
+  "model": "TF-IDF word 1-2gram + LogReg",
+  "normalise": false,
+  "remove_emoji": false,
+  "dev_accuracy": 0.5671,
+  "dev_macro_precision": 0.5612,
+  "dev_macro_recall": 0.4789,
+  "dev_macro_f1": 0.4899,
+  "dev_weighted_f1": 0.5356,
+  "test_accuracy": 0.3392,
+  "test_macro_precision": 0.5473,
+  "test_macro_recall": 0.4826,
+  "test_macro_f1": 0.357,
+  "test_weighted_f1": 0.3855
+}

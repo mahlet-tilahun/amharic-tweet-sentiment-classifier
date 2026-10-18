@@ -1,0 +1,12 @@
+experiment,model,normalise,dev_accuracy,dev_macro_precision,dev_macro_recall,dev_macro_f1,dev_weighted_f1,test_accuracy,test_macro_precision,test_macro_recall,test_macro_f1,test_weighted_f1,remove_emoji,epochs,lr,batch_size,class_weights,minutes
+L_bilstm_word,"BiLSTM (word tokens, random init embeddings)",True,0.5177,0.4935,0.5071,0.4989,0.5185,0.4322,0.4647,0.4761,0.4061,0.4819,,,,,,
+L_bilstm_subword,"BiLSTM (subword tokens, random init embeddings)",True,0.487,0.4757,0.4946,0.4807,0.4905,0.4977,0.4887,0.5164,0.4522,0.5452,,,,,,
+B0_majority,Majority class,True,0.5184,0.1728,0.3333,0.2276,0.3539,0.1121,0.0374,0.3333,0.0672,0.0226,False,,,,,
+B1_word_tfidf_logreg_nonorm,TF-IDF word 1-2gram + LogReg,False,0.5671,0.5612,0.4789,0.4899,0.5356,0.3392,0.5473,0.4826,0.357,0.3855,False,,,,,
+B2_word_tfidf_logreg,TF-IDF word 1-2gram + LogReg,True,0.5745,0.5686,0.4865,0.4963,0.5414,0.3322,0.549,0.4834,0.3526,0.3753,False,,,,,
+B3_word_count_nb,Word count 1-2gram + Multinomial NB,True,0.5631,0.5548,0.4732,0.4846,0.5324,0.3512,0.5679,0.4814,0.3678,0.4059,False,,,,,
+B4_char_tfidf_logreg,TF-IDF char 2-5gram + LogReg,True,0.5745,0.5676,0.5007,0.5159,0.555,0.3922,0.5541,0.5039,0.4003,0.4506,False,,,,,
+B5_char_tfidf_logreg_balanced,TF-IDF char 2-5gram + LogReg (balanced),True,0.5544,0.534,0.5288,0.5312,0.5527,0.4837,0.5307,0.5402,0.4608,0.5397,False,,,,,
+B6_char_tfidf_logreg_balanced_noemoji,"TF-IDF char 2-5gram + LogReg (balanced), emoji removed",True,0.5518,0.5302,0.5253,0.5274,0.5498,0.4837,0.5279,0.537,0.4597,0.5397,True,,,,,
+T1_afroxlmr_mini,Davlan/afro-xlmr-mini,True,0.5297,0.5401,0.5653,0.5371,0.53,0.6828,0.591,0.6079,0.5795,0.7057,,4.0,5e-05,16.0,True,614.4
+T2_bert_medium_amharic,rasyosef/bert-medium-amharic,True,0.6032,0.5949,0.6238,0.6038,0.6046,0.6983,0.6243,0.6802,0.6249,0.7249,,4.0,5e-05,16.0,True,74.6

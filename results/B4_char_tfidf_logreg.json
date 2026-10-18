@@ -1,0 +1,16 @@
+{
+  "experiment": "B4_char_tfidf_logreg",
+  "model": "TF-IDF char 2-5gram + LogReg",
+  "normalise": true,
+  "remove_emoji": false,
+  "dev_accuracy": 0.5745,
+  "dev_macro_precision": 0.5676,
+  "dev_macro_recall": 0.5007,
+  "dev_macro_f1": 0.5159,
+  "dev_weighted_f1": 0.555,
+  "test_accuracy": 0.3922,
+  "test_macro_precision": 0.5541,
+  "test_macro_recall": 0.5039,
+  "test_macro_f1": 0.4003,
+  "test_weighted_f1": 0.4506
+}

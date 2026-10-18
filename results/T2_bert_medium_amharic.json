@@ -1,0 +1,20 @@
+{
+  "experiment": "T2_bert_medium_amharic",
+  "model": "rasyosef/bert-medium-amharic",
+  "normalise": true,
+  "epochs": 4,
+  "lr": 5e-05,
+  "batch_size": 16,
+  "class_weights": true,
+  "minutes": 74.6,
+  "dev_accuracy": 0.6032,
+  "dev_macro_precision": 0.5949,
+  "dev_macro_recall": 0.6238,
+  "dev_macro_f1": 0.6038,
+  "dev_weighted_f1": 0.6046,
+  "test_accuracy": 0.6983,
+  "test_macro_precision": 0.6243,
+  "test_macro_recall": 0.6802,
+  "test_macro_f1": 0.6249,
+  "test_weighted_f1": 0.7249
+}

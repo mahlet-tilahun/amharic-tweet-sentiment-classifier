@@ -1,0 +1,16 @@
+{
+  "experiment": "B6_char_tfidf_logreg_balanced_noemoji",
+  "model": "TF-IDF char 2-5gram + LogReg (balanced), emoji removed",
+  "normalise": true,
+  "remove_emoji": true,
+  "dev_accuracy": 0.5518,
+  "dev_macro_precision": 0.5302,
+  "dev_macro_recall": 0.5253,
+  "dev_macro_f1": 0.5274,
+  "dev_weighted_f1": 0.5498,
+  "test_accuracy": 0.4837,
+  "test_macro_precision": 0.5279,
+  "test_macro_recall": 0.537,
+  "test_macro_f1": 0.4597,
+  "test_weighted_f1": 0.5397
+}

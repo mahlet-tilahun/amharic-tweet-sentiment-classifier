@@ -1,0 +1,95 @@
+{
+  "baseline": {
+    "source_prior": {
+      "negative": 0.333,
+      "neutral": 0.333,
+      "positive": 0.333
+    },
+    "estimated_test_prior": {
+      "negative": 0.259,
+      "neutral": 0.656,
+      "positive": 0.085
+    },
+    "true_test_prior": {
+      "negative": 0.669,
+      "neutral": 0.112,
+      "positive": 0.219
+    },
+    "test_before": {
+      "accuracy": 0.4837,
+      "macro_precision": 0.5307,
+      "macro_recall": 0.5402,
+      "macro_f1": 0.4608,
+      "weighted_f1": 0.5397
+    },
+    "test_after": {
+      "accuracy": 0.2756,
+      "macro_precision": 0.6392,
+      "macro_recall": 0.4349,
+      "macro_f1": 0.2788,
+      "weighted_f1": 0.3066
+    }
+  },
+  "T1_afroxlmr_mini": {
+    "source_prior": {
+      "negative": 0.333,
+      "neutral": 0.333,
+      "positive": 0.333
+    },
+    "estimated_test_prior": {
+      "negative": 0.814,
+      "neutral": 0.073,
+      "positive": 0.114
+    },
+    "true_test_prior": {
+      "negative": 0.669,
+      "neutral": 0.112,
+      "positive": 0.219
+    },
+    "test_before": {
+      "accuracy": 0.6828,
+      "macro_precision": 0.591,
+      "macro_recall": 0.6079,
+      "macro_f1": 0.5795,
+      "weighted_f1": 0.7057
+    },
+    "test_after": {
+      "accuracy": 0.7394,
+      "macro_precision": 0.5025,
+      "macro_recall": 0.4606,
+      "macro_f1": 0.4577,
+      "weighted_f1": 0.6771
+    }
+  },
+  "T2_bert_medium_amharic": {
+    "source_prior": {
+      "negative": 0.333,
+      "neutral": 0.333,
+      "positive": 0.333
+    },
+    "estimated_test_prior": {
+      "negative": 0.684,
+      "neutral": 0.114,
+      "positive": 0.201
+    },
+    "true_test_prior": {
+      "negative": 0.669,
+      "neutral": 0.112,
+      "positive": 0.219
+    },
+    "test_before": {
+      "accuracy": 0.6983,
+      "macro_precision": 0.6243,
+      "macro_recall": 0.6802,
+      "macro_f1": 0.6249,
+      "weighted_f1": 0.7249
+    },
+    "test_after": {
+      "accuracy": 0.7749,
+      "macro_precision": 0.6889,
+      "macro_recall": 0.5577,
+      "macro_f1": 0.5697,
+      "weighted_f1": 0.7418
+    }
+  }
+}

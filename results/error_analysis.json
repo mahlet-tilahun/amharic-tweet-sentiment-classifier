@@ -1,0 +1,226 @@
+{
+  "final_model": "T2_bert_medium_amharic",
+  "true_distribution_test": {
+    "negative": 1337,
+    "positive": 438,
+    "neutral": 224
+  },
+  "final": {
+    "per_class": {
+      "negative": {
+        "precision": 0.894,
+        "recall": 0.718,
+        "f1-score": 0.796
+      },
+      "neutral": {
+        "precision": 0.296,
+        "recall": 0.67,
+        "f1-score": 0.411
+      },
+      "positive": {
+        "precision": 0.683,
+        "recall": 0.653,
+        "f1-score": 0.667
+      }
+    },
+    "confusion_matrix (rows=true neg/neu/pos, cols=pred)": [
+      [
+        960,
+        273,
+        104
+      ],
+      [
+        45,
+        150,
+        29
+      ],
+      [
+        69,
+        83,
+        286
+      ]
+    ],
+    "most_common_errors (true -> pred)": {
+      "negative -> neutral": 273,
+      "negative -> positive": 104,
+      "positive -> neutral": 83,
+      "positive -> negative": 69,
+      "neutral -> negative": 45,
+      "neutral -> positive": 29
+    },
+    "accuracy_by_length": {
+      "1-8": {
+        "accuracy": 0.671,
+        "n": 438
+      },
+      "9-15": {
+        "accuracy": 0.69,
+        "n": 583
+      },
+      "16-25": {
+        "accuracy": 0.719,
+        "n": 921
+      },
+      "26+": {
+        "accuracy": 0.667,
+        "n": 57
+      }
+    },
+    "accuracy_by_oov_ratio": {
+      "0-20%": {
+        "accuracy": 0.707,
+        "n": 399
+      },
+      "20-40%": {
+        "accuracy": 0.709,
+        "n": 956
+      },
+      "40%+": {
+        "accuracy": 0.677,
+        "n": 644
+      }
+    },
+    "accuracy_by_latin_words": {
+      "False": {
+        "accuracy": 0.711,
+        "n": 1703
+      },
+      "True": {
+        "accuracy": 0.628,
+        "n": 296
+      }
+    },
+    "prediction_distribution_test": {
+      "negative": 1074,
+      "neutral": 506,
+      "positive": 419
+    },
+    "accuracy_by_confidence": {
+      "<0.5": {
+        "accuracy": 0.403,
+        "n": 303
+      },
+      "0.5-0.7": {
+        "accuracy": 0.626,
+        "n": 821
+      },
+      "0.7-0.9": {
+        "accuracy": 0.858,
+        "n": 705
+      },
+      ">0.9": {
+        "accuracy": 0.912,
+        "n": 170
+      }
+    }
+  },
+  "baseline": {
+    "per_class": {
+      "negative": {
+        "precision": 0.866,
+        "recall": 0.447,
+        "f1-score": 0.589
+      },
+      "neutral": {
+        "precision": 0.164,
+        "recall": 0.674,
+        "f1-score": 0.264
+      },
+      "positive": {
+        "precision": 0.562,
+        "recall": 0.5,
+        "f1-score": 0.529
+      }
+    },
+    "confusion_matrix (rows=true neg/neu/pos, cols=pred)": [
+      [
+        597,
+        596,
+        144
+      ],
+      [
+        46,
+        151,
+        27
+      ],
+      [
+        46,
+        173,
+        219
+      ]
+    ],
+    "most_common_errors (true -> pred)": {
+      "negative -> neutral": 596,
+      "positive -> neutral": 173,
+      "negative -> positive": 144,
+      "neutral -> negative": 46,
+      "positive -> negative": 46,
+      "neutral -> positive": 27
+    },
+    "accuracy_by_length": {
+      "1-8": {
+        "accuracy": 0.514,
+        "n": 438
+      },
+      "9-15": {
+        "accuracy": 0.489,
+        "n": 583
+      },
+      "16-25": {
+        "accuracy": 0.466,
+        "n": 921
+      },
+      "26+": {
+        "accuracy": 0.491,
+        "n": 57
+      }
+    },
+    "accuracy_by_oov_ratio": {
+      "0-20%": {
+        "accuracy": 0.566,
+        "n": 399
+      },
+      "20-40%": {
+        "accuracy": 0.477,
+        "n": 956
+      },
+      "40%+": {
+        "accuracy": 0.443,
+        "n": 644
+      }
+    },
+    "accuracy_by_latin_words": {
+      "False": {
+        "accuracy": 0.504,
+        "n": 1703
+      },
+      "True": {
+        "accuracy": 0.368,
+        "n": 296
+      }
+    },
+    "prediction_distribution_test": {
+      "neutral": 920,
+      "negative": 689,
+      "positive": 390
+    },
+    "accuracy_by_confidence": {
+      "<0.5": {
+        "accuracy": 0.376,
+        "n": 529
+      },
+      "0.5-0.7": {
+        "accuracy": 0.44,
+        "n": 934
+      },
+      "0.7-0.9": {
+        "accuracy": 0.633,
+        "n": 472
+      },
+      ">0.9": {
+        "accuracy": 0.906,
+        "n": 64
+      }
+    }
+  }
+}

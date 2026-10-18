@@ -1,0 +1,20 @@
+{
+  "experiment": "T1_afroxlmr_mini",
+  "model": "Davlan/afro-xlmr-mini",
+  "normalise": true,
+  "epochs": 4,
+  "lr": 5e-05,
+  "batch_size": 16,
+  "class_weights": true,
+  "minutes": 614.4,
+  "dev_accuracy": 0.5297,
+  "dev_macro_precision": 0.5401,
+  "dev_macro_recall": 0.5653,
+  "dev_macro_f1": 0.5371,
+  "dev_weighted_f1": 0.53,
+  "test_accuracy": 0.6828,
+  "test_macro_precision": 0.591,
+  "test_macro_recall": 0.6079,
+  "test_macro_f1": 0.5795,
+  "test_weighted_f1": 0.7057
+}

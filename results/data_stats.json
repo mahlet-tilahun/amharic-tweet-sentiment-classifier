@@ -1,0 +1,73 @@
+{
+  "train": {
+    "n_tweets": 5984,
+    "class_counts": {
+      "negative": 1548,
+      "neutral": 3104,
+      "positive": 1332
+    },
+    "class_percent": {
+      "negative": 25.9,
+      "neutral": 51.9,
+      "positive": 22.3
+    },
+    "words_mean": 14.4,
+    "words_median": 14,
+    "words_max": 37,
+    "duplicates_within_split": 2,
+    "duplicate_texts_with_conflicting_labels": 0,
+    "percent_with_latin_words": 10.1,
+    "percent_with_emoji": 3.4,
+    "percent_with_@user": 0.0
+  },
+  "dev": {
+    "n_tweets": 1497,
+    "class_counts": {
+      "negative": 388,
+      "neutral": 776,
+      "positive": 333
+    },
+    "class_percent": {
+      "negative": 25.9,
+      "neutral": 51.8,
+      "positive": 22.2
+    },
+    "words_mean": 14.3,
+    "words_median": 14,
+    "words_max": 44,
+    "duplicates_within_split": 0,
+    "also_in_train": 0,
+    "percent_with_latin_words": 10.4,
+    "percent_with_emoji": 3.5,
+    "percent_with_@user": 0.0
+  },
+  "test": {
+    "n_tweets": 1999,
+    "class_counts": {
+      "negative": 1337,
+      "neutral": 224,
+      "positive": 438
+    },
+    "class_percent": {
+      "negative": 66.9,
+      "neutral": 11.2,
+      "positive": 21.9
+    },
+    "words_mean": 14.9,
+    "words_median": 15,
+    "words_max": 34,
+    "duplicates_within_split": 0,
+    "also_in_train": 0,
+    "percent_with_latin_words": 14.8,
+    "percent_with_emoji": 0.0,
+    "percent_with_@user": 62.3
+  },
+  "vocab_size_train_raw": 34412,
+  "singleton_words_train_raw": 25394,
+  "oov_rate_dev_raw": 30.2,
+  "oov_rate_test_raw": 34.5,
+  "vocab_size_train_normalised": 33823,
+  "singleton_words_train_normalised": 24906,
+  "oov_rate_dev_normalised": 29.5,
+  "oov_rate_test_normalised": 33.9
+}

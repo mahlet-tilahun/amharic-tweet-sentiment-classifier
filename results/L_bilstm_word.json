@@ -1,0 +1,15 @@
+{
+  "experiment": "L_bilstm_word",
+  "model": "BiLSTM (word tokens, random init embeddings)",
+  "normalise": true,
+  "dev_accuracy": 0.5177,
+  "dev_macro_precision": 0.4935,
+  "dev_macro_recall": 0.5071,
+  "dev_macro_f1": 0.4989,
+  "dev_weighted_f1": 0.5185,
+  "test_accuracy": 0.4322,
+  "test_macro_precision": 0.4647,
+  "test_macro_recall": 0.4761,
+  "test_macro_f1": 0.4061,
+  "test_weighted_f1": 0.4819
+}

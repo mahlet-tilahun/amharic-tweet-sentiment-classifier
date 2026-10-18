@@ -1,0 +1,16 @@
+{
+  "experiment": "B3_word_count_nb",
+  "model": "Word count 1-2gram + Multinomial NB",
+  "normalise": true,
+  "remove_emoji": false,
+  "dev_accuracy": 0.5631,
+  "dev_macro_precision": 0.5548,
+  "dev_macro_recall": 0.4732,
+  "dev_macro_f1": 0.4846,
+  "dev_weighted_f1": 0.5324,
+  "test_accuracy": 0.3512,
+  "test_macro_precision": 0.5679,
+  "test_macro_recall": 0.4814,
+  "test_macro_f1": 0.3678,
+  "test_weighted_f1": 0.4059
+}

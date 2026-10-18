@@ -1,0 +1,16 @@
+{
+  "experiment": "B0_majority",
+  "model": "Majority class",
+  "normalise": true,
+  "remove_emoji": false,
+  "dev_accuracy": 0.5184,
+  "dev_macro_precision": 0.1728,
+  "dev_macro_recall": 0.3333,
+  "dev_macro_f1": 0.2276,
+  "dev_weighted_f1": 0.3539,
+  "test_accuracy": 0.1121,
+  "test_macro_precision": 0.0374,
+  "test_macro_recall": 0.3333,
+  "test_macro_f1": 0.0672,
+  "test_weighted_f1": 0.0226
+}

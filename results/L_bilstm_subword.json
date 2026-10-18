@@ -1,0 +1,15 @@
+{
+  "experiment": "L_bilstm_subword",
+  "model": "BiLSTM (subword tokens, random init embeddings)",
+  "normalise": true,
+  "dev_accuracy": 0.487,
+  "dev_macro_precision": 0.4757,
+  "dev_macro_recall": 0.4946,
+  "dev_macro_f1": 0.4807,
+  "dev_weighted_f1": 0.4905,
+  "test_accuracy": 0.4977,
+  "test_macro_precision": 0.4887,
+  "test_macro_recall": 0.5164,
+  "test_macro_f1": 0.4522,
+  "test_weighted_f1": 0.5452
+}
