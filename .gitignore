@@ -1,0 +1,8 @@
+.venv/
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+models/
+logs/
+deploy/space/
+.ipynb_checkpoints/
