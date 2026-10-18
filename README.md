@@ -57,14 +57,15 @@ because the label distribution changes between dev and test.
 
 ## 4. Results
 
-The strongest baseline was the balanced character TF-IDF + logistic regression model (macro-F1 0.5397 on test),
+The strongest baseline was the balanced character TF-IDF + logistic regression model (macro-F1 0.4608 and
+weighted F1 0.5397 on test),
 while the best deep model was the Amharic BERT fine-tune (macro-F1 0.6249 on test). The larger improvement on the
 shifted test split shows that pretrained contextual embeddings generalise better than shallow baselines.
 
 | Model                                         | Dev macro-F1 | Test macro-F1 | Test weighted F1 |
 | --------------------------------------------- | -----------: | ------------: | ---------------: |
 | Majority class                                |       0.2276 |        0.0672 |           0.0226 |
-| Best baseline (char TF-IDF + balanced logreg) |       0.5312 |        0.5397 |           0.5527 |
+| Best baseline (char TF-IDF + balanced logreg) |       0.5312 |        0.4608 |           0.5397 |
 | AfroXLMR-mini                                 |       0.5371 |        0.5795 |           0.7057 |
 | Amharic BERT (final)                          |       0.6038 |        0.6249 |           0.7249 |
 
