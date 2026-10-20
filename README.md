@@ -10,7 +10,7 @@ scratch, and fine-tuned pretrained Transformer models.
 | ------------- | -------------------------------------------------------------------------------------------------------- |
 | Web deployment| https://amharic-tweet-sentiment-classifier.streamlit.app/                                                |
 | Hosted model  | [Amharic sentiment model on Hugging Face](https://huggingface.co/mahlet-tilahun/amharic-sentiment-model) |
-| Demo video    | Add after publishing the video                                                                           |
+| Demo video    | https://youtu.be/Q2jRcuwaXWc?si=Y4gRbVThzgZuqNjh                                                                         |
 | Report (PDF)  | [report/report.pdf](report/report.pdf)                                                                   |
 
 ---
